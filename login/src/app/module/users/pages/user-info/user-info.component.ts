@@ -9,9 +9,9 @@ import { UserService } from '../../services/user.service';
   styleUrl: './user-info.component.css'
 })
 export class UserInfoComponent {
-  user: UserModel | null;
+  // user: UserModel | null;
 
-  constructor(private userService: UserService) {
-    this.user = this.userService.getCurrentUser();
-  }
+  // constructor(private userService: UserService) {
+  //   this.user = this.userService.getCurrentUser();
+  // }
 }
